@@ -27,7 +27,7 @@ body {
 }
 
 .slider-items {
-    width: 500%;
+    width: 400%;
     height: 100%;
     display: flex;
 }
@@ -49,11 +49,13 @@ body {
 
 .slider-nav {
     position: absolute;
-    bottom: 1px;
+    bottom: 80px;
     width: 100%;
     display: flex;
     justify-content: center;
 }
+
+
 
 .slider-nav .slider-nav-item {
     width: 25px;
@@ -83,4 +85,8 @@ body {
 
 #s4:checked~.s1 {
     margin-left: -75%;
+}
+
+h2 {
+    color: wheat;
 }
